@@ -1,12 +1,13 @@
 ---
 - name: Install ZSh
   become: true
-  ansible.builtin.package:
+  apt:
     name:
       - zsh
       - git
       - curl
     state: latest
+    update_cache: yes
 
 - name: Get ZSh path
   ansible.builtin.shell: which zsh
