@@ -1,0 +1,7 @@
+---
+- hosts: hectar
+  roles:
+      - role: common
+        tags: [common, always]
+      - role: hectar
+        tags: [hectar]
