@@ -1,4 +1,4 @@
 ---
-hostname: '42WorkStation'
+hostname: '42'
 user:
-  login: 'thdelmas'
+  login: 'toto'
