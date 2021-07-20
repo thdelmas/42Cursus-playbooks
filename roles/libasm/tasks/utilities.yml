@@ -1,0 +1,14 @@
+---
+- name: Install nasm
+  become: true
+  apt:
+    name:
+      - nasm
+    state: latest
+
+- name: Install radare2
+  become: true
+  apt:
+    name:
+      - radare2
+    state: latest

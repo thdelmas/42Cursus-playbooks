@@ -9,3 +9,5 @@
         tags: [ft_printf, c-projects]
       - role: 42cursus-get_next_line
         tags: [get_next_line, c-projects]
+      - role: libasm
+        tags: [libasm, asm-projects]
